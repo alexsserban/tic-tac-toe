@@ -1,6 +1,5 @@
 {
-  "name": "frontend",
-  "private": true,
+  "name": "tic-tac-toe-frontend",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

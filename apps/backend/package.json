@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe-backend",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "nodemon --watch './**/*' -e ts --exec 'ts-node index.ts'",
+    "start": "node ./dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.41",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.5.4"
+  }
+}
