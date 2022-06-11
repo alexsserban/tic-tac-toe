@@ -1,0 +1,20 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.0",
+  "description": "Tic Tac Toe",
+  "author": {
+    "name": "Alexandru Serban",
+    "email": "alex.serban.dev@gmail.com"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel"
+  },
+  "devDependencies": {
+    "turbo": "^1.2.16"
+  },
+  "license": "MIT"
+}
